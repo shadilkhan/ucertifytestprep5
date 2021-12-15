@@ -84,9 +84,9 @@ return(
     </div>
     
     <ol type="1">
-      <!-- {#if attemptedlength}
+      {#if attemptedlength}
     <button class="linkattempt">Nothing is Attempted Yet!!!</button>
-    {/if} -->
+    {/if}
       {#each allquestion as dataItem, i (dataItem)}
         <li id="list{i}">
           
